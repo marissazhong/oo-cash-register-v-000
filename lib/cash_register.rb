@@ -26,6 +26,6 @@ class CashRegister
   end
 
   def void_last_transaction #this doesn't remove the item from the list, only subtracts from total
-
+    @total -= @last_transaction
   end
 end
